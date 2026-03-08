@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions</title>
+    <!-- daisyui + tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/23acd5bb39.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <style>
+        .primary-button {
+            background-color: #B68C5A;
+            color: white;
+        }
+
+        .transform-carousel {
+            transform: translate(-50%, -50%);
+        }
+
+        .font-garamond{
+            font-family: "EB Garamond", serif;
+        }
+    </style>
+</head>
+
+<body class="font-garamond">
+    <header class="container mx-auto">
+        <!-- navbar -->
+        <nav class="my-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services <i class="fa-solid fa-greater-than"></i></a></li>
+                            <li><a>Cases <i class="fa-solid fa-greater-than"></i></a></li>
+                            <li><a>Blog <i class="fa-solid fa-greater-than"></i></a></li>
+                            <li><a>Contact Us <i class="fa-solid fa-greater-than"></i></a></li>
+                        </ul>
+                    </div>
+                    <img src="images/brand-logo.png" alt="">
+                    <a class="text-3xl font-bold mx-4">Justice</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services <i class="fa-solid fa-greater-than"></i></a></li>
+                        <li><a>Cases <i class="fa-solid fa-greater-than"></i></a></li>
+                        <li><a>Blog <i class="fa-solid fa-greater-than"></i></a></li>
+                        <li><a>Contact Us <i class="fa-solid fa-greater-than"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn primary-button px-6 py-4">Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <section class="mb-24">
+            <div class="hero min-h-[70vh]" style="background-image: url('images/banner.png');">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold text-white">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <div class="flex gap-4">
+                            <input type="text" placeholder="Search our services" class="input w-full max-w-xs" />
+                            <button class="btn primary-button border-none px-6 py-4">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="container mx-auto">
+        <!-- practice areas section -->
+        <section class="text-center space-y-7 mb-24">
+            <h2 class="font-bold text-4xl">The Legal Practice Area</h2>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis ut
+                corporis earum doloremque! Earum odio quae atque eius expedita?</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div class="card bg-base-100 w-auto space-y-5 border rounded-none border-t-0 border-l-0 py-20">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center px-16 space-y-5">
+                        <h2 class="card-title font-bold text-2xl">Business Law</h2>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-auto space-y-5 border rounded-none border-t-0 py-20">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center px-16 space-y-5">
+                        <h2 class="card-title font-bold text-2xl">Business Law</h2>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-auto space-y-5 border rounded-none border-t-0 border-r-0 py-20">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center px-16 space-y-5">
+                        <h2 class="card-title font-bold text-2xl">Business Law</h2>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-auto space-y-5 border rounded-none border-b-0 border-l-0 py-20">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center px-16 space-y-5">
+                        <h2 class="card-title font-bold text-2xl">Business Law</h2>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-auto space-y-5 border rounded-none border-b-0 py-20">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center px-16 space-y-5">
+                        <h2 class="card-title font-bold text-2xl">Business Law</h2>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 w-auto space-y-5 border rounded-none border-b-0 border-r-0 py-20">
+                    <figure class="px-10 pt-10">
+                        <img src="images/business.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center px-16 space-y-5">
+                        <h2 class="card-title font-bold text-2xl">Business Law</h2>
+                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button><img src="images/Frame.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials section -->
+        <section class="text-center space-y-7 mb-24">
+            <h2 class="font-bold text-4xl">What Our Clients Say</h2>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis ut
+                corporis earum doloremque! Earum odio quae atque eius expedita?</p>
+            <div class="carousel w-full text-white rounded-xl">
+                <!-- testimonial 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/slider-1.jpg" class="w-full" />
+
+                    <div class="absolute left-1/2 top-1/2 transform-carousel flex-col space-y-7">
+                        <div class="avatar">
+                            <div class="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-3xl">Alamin Alif</h3>
+                        <h4>Web Developer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero nostrum?
+                            Reprehenderit
+                            quasi debitis, suscipit iusto placeat in, deserunt, rem animi nemo quis beatae explicabo
+                            numquam distinctio veniam vitae quia!</p>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- testimonial 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/slider-1.jpg" class="w-full" />
+
+                    <div class="absolute left-1/2 top-1/2 transform-carousel flex-col space-y-7">
+                        <div class="avatar">
+                            <div class="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-3xl">Alamin Alif</h3>
+                        <h4>Web Developer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero nostrum?
+                            Reprehenderit
+                            quasi debitis, suscipit iusto placeat in, deserunt, rem animi nemo quis beatae explicabo
+                            numquam distinctio veniam vitae quia!</p>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- testimonial 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/slider-1.jpg" class="w-full" />
+
+                    <div class="absolute left-1/2 top-1/2 transform-carousel flex-col space-y-7">
+                        <div class="avatar">
+                            <div class="ring-white ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-3xl">Alamin Alif</h3>
+                        <h4>Web Developer</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, libero nostrum?
+                            Reprehenderit
+                            quasi debitis, suscipit iusto placeat in, deserunt, rem animi nemo quis beatae explicabo
+                            numquam distinctio veniam vitae quia!</p>
+                    </div>
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="text-center space-y-7 mb-24">
+            <h2 class="font-bold text-4xl">Frequently Asked Questions</h2>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis ut
+                corporis earum doloremque! Earum odio quae atque eius expedita?</p>
+            <div class="md:flex md:items-center gap-8 space-y-7">
+                <div class="flex-1 space-y-7">
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close
+                            others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+                                accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem,
+                                consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam
+                                suscipit?</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close
+                            others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+                                accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem,
+                                consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam
+                                suscipit?</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close
+                            others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+                                accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem,
+                                consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam
+                                suscipit?</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close
+                            others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+                                accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem,
+                                consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam
+                                suscipit?</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200 p-6">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-medium text-left">Click to open this one and close
+                            others</div>
+                        <div class="collapse-content">
+                            <p class="text-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+                                accusantium excepturi iure. Consectetur, dicta eos perferendis aspernatur nobis rem,
+                                consequuntur doloribus qui, pariatur delectus incidunt magnam ducimus at aliquam
+                                suscipit?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-1">
+                    <img src="images/faq.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="text-center space-y-7 mb-24">
+            <h2 class="font-bold text-4xl">Contact With Us</h2>
+            <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis ut
+                corporis earum doloremque! Earum odio quae atque eius expedita?</p>
+            <div class="md:flex md:justify-between md:items-center gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 flex-1 space-y-4  sm:space-y-4 md:space-y-0">
+                    <div class="card bg-[#F3F3F3] w-auto space-y-5 border rounded-none border-t-0 border-l-0 py-4">
+                        <figure class="px-10 pt-10">
+                            <img src="images/location.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center px-16 space-y-5">
+                            <h2 class="card-title font-bold text-2xl">Address</h2>
+                            <p class="text-gray-500">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div
+                        class="card bg-[#F3F3F3] w-auto space-y-5 border rounded-none border-t-0 border-l-0 border-r-0 py-4">
+                        <figure class="px-10 pt-10">
+                            <img src="images/location.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center px-16 space-y-5">
+                            <h2 class="card-title font-bold text-2xl">Address</h2>
+                            <p class="text-gray-500">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="card bg-[#F3F3F3] w-auto space-y-5 border rounded-none border-t-0 border-l-0 py-4">
+                        <figure class="px-10 pt-10">
+                            <img src="images/location.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center px-16 space-y-5">
+                            <h2 class="card-title font-bold text-2xl">Address</h2>
+                            <p class="text-gray-500">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div
+                        class="card bg-[#F3F3F3] w-auto space-y-5 border rounded-none border-t-0 border-l-0 border-r-0 py-4">
+                        <figure class="px-10 pt-10">
+                            <img src="images/location.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center px-16 space-y-5">
+                            <h2 class="card-title font-bold text-2xl">Address</h2>
+                            <p class="text-gray-500">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="flex-1 space-y-7">
+                    <input type="text" placeholder="Your Name" class="input  py-12 w-full bg-[#F3F3F3]" />
+                    <input type="email" placeholder="Your Email" class="input  py-12 w-full bg-[#F3F3F3]" />
+                    <input type="text" placeholder="Your Name" class="input  py-12 w-full bg-[#F3F3F3]" />
+                    <textarea name="" id="" class="input  py-20 w-full bg-[#F3F3F3]"
+                        placeholder="Your Message"></textarea>
+                    <a class="btn primary-button px-6 py-4 w-full py">Send Message</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#111111]">
+        <section class="container mx-auto footer text-white p-10">
+            <nav class="">
+                <div class="flex justify-between items-center">
+                    <img src="images/brand-logo.png" alt="">
+                    <a class="text-3xl font-bold mx-4">Justice</a>
+                </div>
+                <p class="text-white">Lorem ipsum dolor sit amet</p>
+            </nav>
+            <nav>
+                <h6 class="text-xl font-bold text-white">Useful Links</h6>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Cases</a>
+                <a class="link link-hover">Blog</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <nav>
+                <h6 class="text-xl font-bold text-white">Contact Now</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <h6 class="text-xl font-bold text-white">Subscribe</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text text-white">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="Email Address" class="input input-bordered join-item" />
+                        <button class="btn primary-button border-none join-item"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </footer>
+</body>
+
+</html>

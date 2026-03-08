@@ -1,2 +1,18 @@
-# web-dev-projects
-HTML, CSS, JavaScript and React projects and practice files, including Tailwind, Bootstrap, DaisyUI and Material UI, from my web development learning journey. Most projects include Figma designs.
+## Technologies Used
+- HTML & CSS
+- JavaScript
+- React
+- Tailwind CSS
+- Bootstrap
+- DaisyUI
+- Material UI
+- Various other frontend tools and libraries
+
+## Design
+- Figma (UI/UX design and prototyping)
+
+## Deployments
+Some projects in this repository have been deployed and are live via:
+- [Vercel](https://vercel.com)
+- [Netlify](https://netlify.com)
+- [GitHub Pages](https://pages.github.com)

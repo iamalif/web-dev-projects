@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="video.html">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" name="" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Number:
+                    <input type="text" name="" id="phone" placeholder="Your Number">
+                </label>
+
+                <fieldset>
+                    <legend>Pick One From Below</legend>
+                    <label for="option1">
+                        <input type="radio" name="options" id="option1">Option 1
+                    </label>
+                    <label for="option2">
+                        <input type="radio" name="options" id="option2">Option 2
+                    </label>
+                    <label for="option3">
+                        <input type="radio" name="options" id="option3">Option 3
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick One Or More From Below</legend>
+                    <label for="option1">
+                        <input type="checkbox" name="options" id="option1">Option 1
+                    </label>
+                    <label for="option2">
+                        <input type="checkbox" name="options" id="option2">Option 2
+                    </label>
+                    <label for="option3">
+                        <input type="checkbox" name="options" id="option3">Option 3
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Other Instructions</legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

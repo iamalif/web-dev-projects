@@ -1,0 +1,50 @@
+*{
+    font-family: "Open Sans", serif;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* button styles */
+
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FAFAFA;
+    background-color: #CF3033;
+    padding: 15px 20px;
+    border-radius: 3px;
+    border: 0;
+}
+
+/* nav styles */
+
+nav hr{
+    border-color: #BEBEBE;
+}
+
+.nav-top-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top-row-right{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul>li{
+    margin-right: 30px;
+}
+
+.fa-solid, .fa-magnifying-glass{
+    margin: auto 30px;
+}

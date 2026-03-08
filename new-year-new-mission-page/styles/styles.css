@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    /* font-family: "Merriweather", serif;
+    font-family: "Inter", serif; */
+}
+
+/* common styles */
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* header styles */
+header{
+    margin-top: 100px;
+}
+
+.header{
+    height: 600px;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+}
+
+.hero-pretitle{
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 20px;;
+}
+
+.hero-title{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+}
+
+/* discount section styles */
+.discount{
+    font-family: "Inter", serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.discount-title{
+    font-size: 88px;
+    color: red;
+}
+
+.discount-first-subtitle{
+    font-size: 24px;
+    color: red;
+    margin: 48px 0 16px 0;
+}
+
+.discount-second-subtitle{
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+
+/* midnight section styles */
+.midnight{
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+    border-radius: 10px;
+}
+
+.midnight-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    align-items: center;
+}
+
+.midnight-title{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    width: 640px;
+}
+
+.midnight-subtitle{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    width: 700px;
+    margin: 25px 0 48px 0;
+}
+
+.midnight-btn{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.midnight-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* event schedule section styles */
+.event-schedule{
+    font-family: "Inter", serif;
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient(#FFE6E6, white);
+    border-radius: 10px;
+    padding: 100px 0;
+    margin-bottom: 120px;
+}
+
+.event-schedule span{
+    color: red;
+}
+
+.event-schedule-text{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.event-schedule-btn{
+    margin-top: 48px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.event-schedule-btn:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* offers styles */
+.offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.offer-left{
+    width: 393px;
+}
+
+.offer-pretitle{
+    font-family: "Inter", serif;
+    color: red;
+    font-size: 24px;
+}
+
+.offer-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.offer-paragraph{
+    font-family: "Inter", serif;
+    color: #6A6770;
+    font-size: 20px;
+}
+
+.offer-middle img{
+    width: 365px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.offer-right{
+    width: 276px;
+}
+
+.offer-year{
+    font-family: "Inter", serif;
+    color: red;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.offer-right img{
+    margin-top: 43px;
+    width: 140px;
+}
+
+/* sale top section */
+.sale-top{
+    text-align: center;
+    margin-bottom: 64px;
+    width: 1068px;
+}
+
+.sale-top span{
+    color: red;
+}
+
+.sale-pretitle{
+    font-family: "Inter", serif;
+    font-size: 24px;
+}
+
+.sale-title{
+    font-family: "Merriweather", serif;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    font-size: 72px;
+}
+
+/* sale bottom section */
+.sale-bottom{
+    height: 662px;
+    background-image: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'), url('../images/Group\ 44.png'), url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 10% 20%, bottom, 70% 20%, top right;
+}
+
+/* gifts section */
+
+.gifts{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.gifts-subtitle{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    color: red;
+}
+
+.gifts-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.gifts-paragraph{
+    font-family: "Inter", serif;
+    color: #6A6770;
+    font-size: 20px;
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.gifts-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gifts-boxes img{
+    width: 424px;
+    height: 450px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.gifts-boxes img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* newsletter section */
+.newsletter{
+    background-color: #FFF2F2;
+    border-radius: 15px;
+    border: 0;
+    text-align: center;
+    align-content: center;
+    padding: 100px 0;
+    margin-bottom: 120px;
+}
+
+.newsletter-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.newsletter-paragraph{
+    font-family: "Inter", serif;
+    color: #6A6770;
+    font-size: 20px;
+    width: 896px;
+    margin: 0 auto 48px;
+}
+
+.newsletter input{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: #6A6770;
+    padding: 17px 30px;
+    border-radius: 100px 0 0 100px;
+    border: 0;
+}
+
+.newsletter-btn{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 0 100px 100px 0;
+    border: 0;
+    margin-left: 0;
+}
+
+.newsletter-btn:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* footer styles */
+footer{
+    font-family: "Inter", serif;
+    background-color: #070211;
+    color: white;
+    padding: 130px 0;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top p{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.footer hr{
+    border-top: 1px solid #FFF2F2;
+    margin-top: 80px;
+}
+
+.footer-middle{
+    text-align: center;
+    margin: 80px auto;
+}
+
+.footer-middle img{
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.footer-bottom p{
+    font-size: 24px;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Developer Portfolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- tailwind -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome -->
+    <!-- <script src="https://kit.fontawesome.com/23acd5bb39.js" crossorigin="anonymous"></script> -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-[#0A0A0A]">
+    <header>
+        <nav class="flex justify-between items-center grey-font py-6 px-4 lg:px-15">
+            <!-- <a href="#"><div class="grey-font">ROBERT GARCIA</div></a> -->
+            <div class="text-3xl font-bebas-neue">
+                <a href="#">ROBERT GARCIA</a>
+            </div>
+            <div class="hidden lg:flex justify-between items-center gap-8 text-base font-inter">
+                <a href="#">Home</a>
+                <a href="/about.html">About</a>
+                <a href="#contact-form-section">Contact</a>
+            </div>
+            <img id="hamburger-menu" class="lg:hidden" src="assets/hamburger-icon.png" alt="">
+        </nav>
+
+        <!-- hamburger dropdown -->
+        <div id="hamburger-dropdown" class="hidden text-white font-inter flex flex-col gap-4 px-4">
+            <a href="#">Home</a>
+            <a href="/about.html">About</a>
+            <a href="#contact-form-section">Contact</a>
+        </div>
+
+        <!-- hero section -->
+        <section
+            class="flex flex-col lg:flex-row justify-center items-center gap-20 w-9/10 lg:w-4/5 mx-auto mt-7 mb-20">
+            <div class="flex-1">
+                <h1 class="text-white text-6xl lg:text-8xl font-bebas-neue">HI, I AM<br>
+                    <div class="typing-demo">ROBERT GARCIA.</div>
+                </h1>
+                <p class="grey-font text-lg font-manrope mt-2 mb-10">A Sydney based front-end developer passionate about
+                    building accessible and user friendly websites.</p>
+                <div class="flex justify-left items-center gap-4">
+                    <a href="#contact-form-section">
+                        <button
+                            class="btn bg-[#D3E97A] border-none rounded-full text-[#0A0A0A] font-manrope text-base font-bold py-7 px-8">CONTACT
+                            ME<svg class="ml-3" width="12" height="12" viewBox="0 0 10 10"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="5" cy="5" r="4" fill="black" />
+                            </svg>
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/al-amin-alif/" target="_blank"><img src="assets/linkedin-icon.png" alt=""></a>
+                    <a href="https://github.com/dev-alif" target="_blank"><img src="assets/github-icon.png" alt=""></a>
+                </div>
+            </div>
+            <div class="flex-1">
+                <img src="assets/hero-image.png" alt="" class="w-full">
+            </div>
+        </section>
+        <div class="divider divider-accent"></div>
+    </header>
+
+    <main>
+        <!-- featured projects section -->
+        <section class="w-9/10 lg:w-4/5 mx-auto">
+            <h2 class="text-white text-5xl lg:text-7xl mb-2 mt-20 font-bebas-neue">FEATURED PROJECTS</h2>
+            <p class="grey-font text-lg font-manrope">Here are some of the selected projects that showcase my passion
+                for front-end development.</p>
+            <!-- project row 1 -->
+            <div class="flex flex-col lg:flex-row justify-center items-center mt-20">
+                <div class="flex-1">
+                    <img src="assets/project-row-1.png" alt="" class="w-full">
+                </div>
+                <div class="flex-1 py-15 lg:pl-12 font-manrope">
+                    <h3 class="text-3xl text-white font-medium">Promotional landing page for our favorite
+                        show</h3>
+                    <p class="grey-font text-lg pt-4 pb-8">Teamed up with a designer to breathe life into a promotional
+                        webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic
+                        content
+                        capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest
+                        adventures.</p>
+                    <h5 class="text-white font-semibold text-base">PROJECT INFO</h5>
+                    <div class="divider divider-accent my-4"></div>
+                    <div class="flex justify-between items-center">
+                        <h6 class="text-white font-medium text-base">Year</h6>
+                        <p class="grey-font font-medium text-base">2023</p>
+                    </div>
+                    <div class="divider divider-accent my-4"></div>
+                    <div class="flex justify-between items-center mb-12">
+                        <h6 class="text-white font-medium text-base">Role</h6>
+                        <p class="grey-font font-medium text-base">Frontend Developer</p>
+                    </div>
+                    <button id="promotional-live-demo-modal" class="cursor-pointer text-[#D3E97A] text-base font-bold underline underline-offset-6 decoration-2 mr-6">LIVE DEMO <img class="inline underline underline-offset-6 decoration-2 ml-2" src="assets/top-right-green-arrow.png" alt=""></button>
+                    <a href="https://github.com/dev-alif?tab=repositories" class="text-[#D3E97A] text-base font-bold underline underline-offset-6 decoration-2">SEE ON GITHUB <img class="inline underline underline-offset-6 decoration-2 ml-2"
+                            src="assets/green-github-icon.png" target="_blank" alt=""></a>
+                </div>
+            </div>
+            <!-- project row 2 -->
+            <div class="flex flex-col lg:flex-row justify-center items-center mt-20">
+                <div class="flex-1">
+                    <img src="assets/project-row-2.png" alt="" class="w-full">
+                </div>
+                <div class="flex-1 py-15 lg:pl-12 font-manrope">
+                    <h3 class="text-3xl text-white font-medium">Blog site for World News</h3>
+                    <p class="grey-font text-lg pt-4 pb-8">Mastered CSS Grid complexities in building an innovative news
+                        homepage, navigating intricate design decisions for a seamless user experience. Leveraged the
+                        challenge to enhance skills in front-end development.</p>
+                    <h5 class="text-white font-semibold text-base">PROJECT INFO</h5>
+                    <div class="divider divider-accent my-4"></div>
+                    <div class="flex justify-between items-center">
+                        <h6 class="text-white font-medium text-base">Client</h6>
+                        <p class="grey-font font-medium text-base">World News</p>
+                    </div>
+                    <div class="divider divider-accent my-4"></div>
+                    <div class="flex justify-between items-center">
+                        <h6 class="text-white font-medium text-base">Year</h6>
+                        <p class="grey-font font-medium text-base">2022</p>
+                    </div>
+                    <div class="divider divider-accent my-4"></div>
+                    <div class="flex justify-between items-center mb-12">
+                        <h6 class="text-white font-medium text-base">Role</h6>
+                        <p class="grey-font font-medium text-base">Frontend Developer</p>
+                    </div>
+                    <a href="https://github.com/dev-alif?tab=repositories" target="_blank"
+                        class="text-[#D3E97A] text-base font-bold underline underline-offset-6 decoration-2 mr-6">VIEW PROJECT <img class="inline underline underline-offset-6 decoration-2 ml-2"
+                            src="assets/top-right-green-arrow.png" alt=""></a>
+                </div>
+            </div>
+            <!-- project row 3 -->
+            <div class="flex flex-col lg:flex-row justify-center items-center my-20">
+                <div class="flex-1">
+                    <img src="assets/project-row-3.png" alt="" class="w-full">
+                </div>
+                <div class="flex-1 py-15 lg:pl-12 font-manrope">
+                    <h3 class="text-3xl text-white font-medium">E-commerce product page</h3>
+                    <p class="grey-font text-lg pt-4 pb-8">Successfully crafted an engaging product page featuring a
+                        dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript
+                        development.</p>
+                    <h5 class="text-white font-semibold text-base">PROJECT INFO</h5>
+                    <div class="divider divider-accent my-4"></div>
+                    <div class="flex justify-between items-center">
+                        <h6 class="text-white font-medium text-base">Year</h6>
+                        <p class="grey-font font-medium text-base">2022</p>
+                    </div>
+                    <div class="divider divider-accent my-4"></div>
+                    <div class="flex justify-between items-center mb-12">
+                        <h6 class="text-white font-medium text-base">Role</h6>
+                        <p class="grey-font font-medium text-base">Frontend Developer</p>
+                    </div>
+                    <button id="ecom-live-demo-modal" class="cursor-pointer text-[#D3E97A] text-base font-bold underline underline-offset-6 decoration-2 mr-6">LIVE
+                        DEMO <img class="inline underline underline-offset-6 decoration-2 ml-2"
+                            src="assets/top-right-green-arrow.png" alt=""></button>
+                    <a href="https://github.com/dev-alif?tab=repositories" class="text-[#D3E97A] text-base font-bold underline underline-offset-6 decoration-2">SEE ON GITHUB <img class="inline underline underline-offset-6 decoration-2 ml-2"
+                            src="assets/green-github-icon.png" target="_blank" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <div class="divider divider-accent mb-30"></div>
+        <!-- about section -->
+        <section
+            class="w-9/10 lg:w-4/5 mx-auto flex flex-col lg:flex-row justify-center items-top pb-20 lg:pb-98 space-y-8">
+            <div class="flex-3">
+                <h2 class="text-white text-5xl lg:text-7xl font-bebas-neue">ABOUT ME</h2>
+            </div>
+            <div class="flex-4 font-manrope">
+                <h3 class="text-2xl lg:text-3xl text-white font-medium">I am a front-end developer based in Sydney. Has
+                    Mechanical
+                    Engineering background.</h3>
+                <p class="grey-font text-lg pt-4 pb-8">I am a front-end developer based in Sydney looking for exciting
+                    opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when
+                    developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow
+                    and a bit of Designing. While I am not programming, I enjoy playing football, photography and
+                    playing Valorant. Learning more to improve skill.</p>
+                <p id="content-block" class="hidden grey-font text-lg pt-4 pb-8">Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Vitae deleniti delectus, sapiente fugiat modi consequatur repellendus beatae,
+                    explicabo mollitia, molestias incidunt pariatur cum? Officia illo soluta aliquam, doloribus optio
+                    sed at, ducimus suscipit quis quisquam, magnam earum facilis corrupti rem dolores debitis itaque.
+                    Nesciunt culpa id sit, ipsam cum esse ratione pariatur ea consequuntur, est temporibus eius impedit
+                    nisi numquam non. Reprehenderit ipsam placeat eveniet, magni nemo excepturi nostrum facere obcaecati
+                    tempora porro sunt alias eligendi architecto asperiores necessitatibus accusamus ducimus! Provident,
+                    aliquid omnis alias molestias facere voluptatum, consequuntur est, praesentium deserunt modi neque
+                    optio ullam debitis quia maiores. Esse sint explicabo officia aliquam molestiae autem illo, sequi
+                    cumque, voluptatem deleniti ab nostrum similique et tempore facere eius unde labore consequatur
+                    nesciunt, nemo debitis! Ab cupiditate modi odit adipisci corrupti suscipit assumenda beatae velit?
+                    Itaque eaque, vitae nihil optio quo quaerat esse modi laudantium ex molestias vel tenetur laboriosam
+                    perspiciatis aliquid necessitatibus voluptatum dolore et deserunt maiores qui molestiae odit harum
+                    fugiat? Praesentium repudiandae impedit, hic animi voluptas quo aut laboriosam sint commodi aliquid
+                    non fuga tempore excepturi? Omnis, magni hic quasi perferendis sunt labore, placeat impedit totam,
+                    autem illum aliquid! Sapiente, nihil! Minima, doloribus mollitia nam qui veritatis officia dolores
+                    labore, ipsam alias voluptate necessitatibus omnis veniam nisi cum consequatur error nesciunt!
+                    Officia, labore expedita. Reiciendis accusantium tempore laudantium. Incidunt ea nesciunt illo a hic
+                    eius non, enim amet maiores consequuntur harum voluptatem eos delectus eligendi impedit natus
+                    dolores dignissimos vitae? Molestias vero odio odit quia porro soluta voluptas nobis, non est nulla,
+                    tempora voluptates suscipit autem enim nisi error nam exercitationem, ea neque! Exercitationem
+                    tempora, cupiditate quibusdam repellendus in molestiae sit ipsa explicabo suscipit reiciendis quo
+                    ullam et accusamus iusto, mollitia, eos expedita itaque. Consequatur quibusdam aperiam, natus
+                    dolorum consequuntur ea officiis, necessitatibus nam, quas sunt omnis voluptate.</p>
+                <button id="content-block-btn"
+                    class="cursor-pointer text-[#D3E97A] text-base font-bold underline underline-offset-6 decoration-2 mr-6">MORE
+                    ABOUT ME</button>
+            </div>
+        </section>
+        <!-- contact form section -->
+        <div class="divider divider-accent pb-20"></div>
+        <section id="contact-form-section"
+            class="w-9/10 lg:w-4/5 mx-auto flex flex-col lg:flex-row justify-between items-top gap-6 space-y-12">
+            <div class="flex-1">
+                <h2 class="text-white text-5xl lg:text-7xl mb-2 font-bebas-neue">LET'S CONNECT</h2>
+                <p class="grey-font text-lg font-manrope mb-10">Say hello at robertgarcia@gmail.com<br>For more info,
+                    here's my resume</p>
+                <div class="flex gap-6">
+                    <a href="#"><img src="assets/bxl-twitter.svg.png" alt=""></a>
+                    <a href="#"><img src="assets/bxl-github.svg.png" alt=""></a>
+                    <a href="#"><img src="assets/bxl-linkedin.svg.png" alt=""></a>
+                    <a href="#"><img src="assets/bxl-instagram.svg.png" alt=""></a>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="flex flex-col font-manrope">
+                    <label class="grey-font mb-2 text-base" for="">Name</label>
+                    <input class="text-white text-lg bg-[#1A1A1A] border-none rounded-sm py-3 px-4 mb-6" type="text"
+                        name="" id="" placeholder="Your name">
+                    <label class="grey-font mb-2 text-base" for="">Email</label>
+                    <input class="text-white text-lg bg-[#1A1A1A] border-none rounded-sm py-3 px-4 mb-6" type="email"
+                        name="" id="" placeholder="Your email">
+                    <label class="grey-font mb-2 text-base" for="">Subject</label>
+                    <input class="text-white text-lg bg-[#1A1A1A] border-none rounded-sm py-3 px-4 mb-6" type="text"
+                        name="" id="" placeholder="Subject">
+                    <label class="grey-font mb-2 text-base" for="">Message</label>
+                    <textarea class="text-white text-lg bg-[#1A1A1A] border-none rounded-sm py-3 px-4 mb-10" name=""
+                        id="" placeholder="Your message" rows="5"></textarea>
+                </div>
+                <button
+                    class="btn bg-[#D3E97A] border-none rounded-full text-[#0A0A0A] font-manrope text-base font-bold py-7 px-8">SUBMIT</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="w-9/10 lg:w-4/5 mx-auto py-20">
+        <p class="grey-font">© 2023 Robert Garcia</p>
+    </footer>
+
+    <!-- promotional landing page live demo modal -->
+    <!-- Open the modal using ID.showModal() method -->
+    <dialog id="my_modal_2" class="modal">
+        <div class="modal-box bg-black font-manrope">
+            <h3 class="text-lg font-bold text-white">LOR EM</h3>
+            <p class="py-4 grey-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ea ducimus nostrum eaque iure delectus culpa placeat, dignissimos autem hic temporibus expedita incidunt consequuntur ullam beatae cupiditate ad porro labore.</p>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/u31qwQUeGuM?si=qnW1nNSj0euayGNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
+
+
+<!-- typing animation source html -->
+<!-- <div class="wrapper">
+    <div class="typing-demo">
+        This is a typing demo.
+    </div>
+</div> -->

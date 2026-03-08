@@ -1,0 +1,47 @@
+/* font styles */
+.grey-font {
+    color: #C7C7C7;
+}
+
+.font-bebas-neue {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.font-manrope {
+    font-family: "Manrope", sans-serif;
+}
+
+
+/* typing effect */
+.wrapper {
+    /* height: 100vh; */
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+}
+
+.typing-demo {
+    width: 13ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    /* font-family: monospace; */
+    /* font-size: 2em; */
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}

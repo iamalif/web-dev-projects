@@ -1,0 +1,22 @@
+.header{
+    color: antiquewhite;
+    height: 600px;
+    background-image: url('ghost-of-tsushima-wallpaper.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+h3{
+    font-size: 40px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid tomato;
+    box-shadow: 10px 10px 20px pink;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}

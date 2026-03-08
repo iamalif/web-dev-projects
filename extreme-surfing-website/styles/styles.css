@@ -1,0 +1,75 @@
+/* fonts */
+.font-rajdhani {
+    font-family: "Rajdhani", sans-serif;
+}
+
+.font-teko {
+    font-family: "Teko", sans-serif;
+}
+
+.font-permanent-marker {
+    font-family: "Permanent Marker", cursive;
+}
+
+/* colors */
+.section-background {
+    background-color: #F2FAFF;
+}
+
+.background-indigo {
+    background-color: #5856D6;
+}
+
+.background-gray {
+    background-color: #646464;
+}
+
+.font-indigo {
+    color: #5856D6;
+}
+
+.font-dark-gray {
+    color: #3F3F3F;
+}
+
+.font-gray {
+    color: #646464;
+}
+
+.font-red {
+    color: red;
+}
+
+.font-almost-black {
+    color: #151515;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url('../assets/home-hero-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        background-image: url('../assets/home-hero-image-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+}
+
+/* join us CTA section */
+.join-us-cta-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/join-us-cta-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}

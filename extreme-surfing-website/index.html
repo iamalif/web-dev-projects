@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Surfing</title>
+    <!-- css -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/23acd5bb39.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar is outside the header tag because it's sticky and body needs to be the parent  -->
+    <nav class="z-999 sticky top-0 bg-white">
+        <div class="w-9/10 lg:w-4/5 mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="#625FFF">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-rajdhani">
+                            <li>
+                                <a>HOME</a>
+                                <ul class="p-2">
+                                    <li><a>EXTREME SURFING</a></li>
+                                    <li><a>KAYAKING</a></li>
+                                    <li><a>SCUBA DIVING</a></li>
+                                </ul>
+                            </li>
+                            <li><a>ABOUT US</a></li>
+                            <li><a>SERVICES</a></li>
+                            <li>
+                                <a>PAGES</a>
+                                <ul class="p-2">
+                                    <li><a>Subpage 1</a></li>
+                                    <li><a>Subpage 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>BLOG</a>
+                                <ul class="p-2">
+                                    <li><a>Post 1</a></li>
+                                    <li><a>Post 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>CONTACT US</a></li>
+                            <li class="max-w-14"><a><img src="assets/navbar-search-icon.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+                    <img class="w-49 ml-5" src="assets/company-logo.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex font-rajdhani">
+                    <ul class="menu menu-horizontal px-1 font-medium text-gray-600">
+                        <li>
+                            <details>
+                                <summary class="rounded-md hover:text-white hover:bg-indigo-500">HOME</summary>
+                                <ul class="p-2">
+                                    <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>EXTREME SURFING</a>
+                                    </li>
+                                    <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>KAYAKING</a></li>
+                                    <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>SCUBA DIVING</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>ABOUT US</a></li>
+                        <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>SERVICES</a></li>
+                        <li>
+                            <details>
+                                <summary class="rounded-md hover:text-white hover:bg-indigo-500">PAGES</summary>
+                                <ul class="p-2">
+                                    <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>Subpage 1</a></li>
+                                    <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>Subpage 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="rounded-md hover:text-white hover:bg-indigo-500">BLOG</summary>
+                                <ul class="p-2">
+                                    <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>Post 1</a></li>
+                                    <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>Post 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li class="rounded-md hover:text-white hover:bg-indigo-500"><a>CONTACT US</a></li>
+                        <li class="w-14 rounded-md hover:text-white hover:bg-indigo-500"><a><img
+                                    src="assets/navbar-search-icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end font-teko">
+                    <a
+                        class="btn p-5 lg:p-6 rounded-full border-none shadow-none text-white bg-indigo-500 hover:bg-indigo-600 text-xl"><img
+                            class="lg:mr-4" src="assets/banner-phoneicon.png.png" alt=""> <span
+                            class="hidden lg:inline">+0123456789</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <!-- hero section -->
+        <section class="relative z-[-5] hero-section text-white flex justify-center items-center py-auto">
+            <div class="text-center font-rajdhani">
+                <h3 class="font-permanent-marker text-2xl lg:text-3xl">COME HAVE FUN WITH</h3>
+                <h1 class="font-teko text-8xl lg:text-[8.75rem] font-bold mt-6 mb-7">EXTREME SURFING</h1>
+                <a
+                    class="btn p-6 border-none shadow-none rounded-full text-white bg-indigo-500 hover:bg-indigo-600 text-lg font-bold">GET
+                    STARTED <i class="ml-5 fa-solid fa-arrow-right"></i></a>
+            </div>
+            <img class="absolute bottom-0" src="assets/wave-effect-home-hero.png" alt="">
+        </section>
+    </header>
+
+    <main>
+        <!-- about us section -->
+        <section>
+            <div
+                class="w-9/10 lg:w-3/5 mx-auto flex flex-col lg:flex-row justify-center items-top my-20 lg:my-35 lg:pb-15">
+                <div class="flex-3 relative hidden lg:block">
+                    <img class="absolute left-[40%] top-[30%] w-[50%]" src="assets/home-about-image1.jpg.png" alt="">
+                    <img class="absolute top-[2%] left-[2%] w-[37%]" src="assets/home-about-image2.jpg.png" alt="">
+                    <img class="absolute top-[65%] left-[10%] w-[30%]" src="assets/home-about-image3.jpg.png" alt="">
+                    <img class="absolute left-[40%] w-[20%]" src="assets/home-about-image4.jpg.png" alt="">
+                </div>
+                <div class="flex-2">
+                    <h3 class="font-indigo font-permanent-marker text-xl">ABOUT US</h3>
+                    <h2 class="font-teko text-6xl font-bold font-almost-black mt-4 mb-3">GET TOP SURF LESSONS FROM US
+                    </h2>
+                    <p class="font-rajdhani text-lg/[1.6] font-medium font-gray mb-8">Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Officia architecto animi atque blanditiis. Deleniti dolorem
+                        reiciendis facere, beatae explicabo architecto?<br><br>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Eveniet, voluptatibus?</p>
+                    <!-- brand button -->
+                    <a
+                        class="font-rajdhani btn p-6 border-none shadow-none rounded-full text-white bg-indigo-500 hover:bg-indigo-600 text-lg font-bold">LEARN
+                        MORE <i class="ml-5 fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- our services section -->
+        <section class="section-background text-center pt-34 pb-51">
+            <div class="w-9/10 lg:w-3/5 mx-auto">
+                <h3 class="font-indigo font-permanent-marker text-xl">OUR SERVICES</h3>
+                <h2 class="font-teko text-6xl font-bold font-almost-black mt-4 mb-10">WHAT WE OFFER</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="hover:shadow-lg shadow-indigo-200 bg-white text-center space-y-8 py-12 px-8">
+                        <img class="mx-auto" src="assets/kite-surfing-blue-icon.png" alt="">
+                        <h3 class="font-teko font-bold font-almost-black text-2xl">KITE SURFING</h3>
+                        <p class="font-rajdhani font-medium text-lg font-gray">Rolestiae non recusandae itaque earum
+                            rerum hic tenetur a sapiente delectus aut reiciendis...</p>
+                        <a class="font-rajdhani font-bold font-indigo" href="#">LEARN MORE <i
+                                class="ml-3 fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hover:shadow-lg shadow-indigo-200 bg-white text-center space-y-8 py-12 px-8">
+                        <img class="mx-auto" src="assets/professional-coach-blue-icon.png" alt="">
+                        <h3 class="font-teko font-bold font-almost-black text-2xl">PROFESSIONAL COACH</h3>
+                        <p class="font-rajdhani font-medium text-lg font-gray">Rolestiae non recusandae itaque earum
+                            rerum hic tenetur a sapiente delectus aut reiciendis...</p>
+                        <a class="font-rajdhani font-bold font-indigo" href="#">LEARN MORE <i
+                                class="ml-3 fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hover:shadow-lg shadow-indigo-200 bg-white text-center space-y-8 py-12 px-8">
+                        <img class="mx-auto" src="assets/surf-lessons-blue-icon.png" alt="">
+                        <h3 class="font-teko font-bold font-almost-black text-2xl">SURF LESSONS</h3>
+                        <p class="font-rajdhani font-medium text-lg font-gray">Rolestiae non recusandae itaque earum
+                            rerum hic tenetur a sapiente delectus aut reiciendis...</p>
+                        <a class="font-rajdhani font-bold font-indigo" href="#">LEARN MORE <i
+                                class="ml-3 fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- register now CTA section -->
+        <section class="relative bg-[#4644AB]">
+            <div class="flex flex-col lg:flex-row justify-center items-center">
+                <div class="flex-2 text-center">
+                    <div class="w-135 mx-auto">
+                        <h3 class="text-white font-permanent-marker text-xl">ABOUT US</h3>
+                        <h2 class="font-teko text-white text-6xl font-bold mt-4 mb-7">BOOK YOUR SURFING LESSON
+                            NOW!</h2>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
+                            <div>
+                                <input
+                                    class="w-full bg-white font-rajdhani font-medium font-gray border-none rounded-full py-4 px-7"
+                                    type="text" placeholder="Name">
+                            </div>
+                            <div>
+                                <input
+                                    class="w-full bg-white font-rajdhani font-medium font-gray border-none rounded-full py-4 px-7"
+                                    type="text" placeholder="Phone">
+                            </div>
+                            <div>
+                                <input
+                                    class="w-full bg-white font-rajdhani font-medium font-gray border-none rounded-full py-4 px-7"
+                                    type="email" placeholder="Email">
+                            </div>
+                            <div>
+                                <input
+                                    class="w-full bg-white font-rajdhani font-medium font-gray border-none rounded-full py-4 px-7"
+                                    type="text" placeholder="Select Lesson">
+                            </div>
+                            <div class="col-span-2">
+                                <textarea
+                                    class="w-full bg-white font-rajdhani font-medium font-gray border-none rounded-2xl py-4 px-7"
+                                    rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="assets/blue-cta-section-image.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- our activities section -->
+        <section class="text-center my-35">
+            <h3 class="font-indigo font-permanent-marker text-xl">OUR ACTIVITIES</h3>
+            <h2 class="font-teko text-6xl font-bold font-almost-black mt-4 mb-10">EXPLORE THE EXCITEMENT</h2>
+            <!-- carousel -->
+            <!-- <div class="carousel w-9/10 lg:w-3/5 mx-auto">
+                <div id="item1" class="carousel-item w-full">
+                    <img src="assets/lacie-slezak-7yqyQQXgOT8-unsplash (1).jpg" class="w-full rounded-2xl" />
+                </div>
+                <div id="item2" class="carousel-item w-full">
+                    <img src="assets/tim-marshall-vn59e-3J2oo-unsplash (1).jpg" class="w-full rounded-2xl" />
+                </div>
+                <div id="item3" class="carousel-item w-full">
+                    <img src="assets/hoang-m-nguyen-w7XkGwfv6fQ-unsplash (1).jpg" class="w-full rounded-2xl" />
+                </div>
+                <div id="item4" class="carousel-item w-full">
+                    <img src="assets/jeremy-bishop-pikyGuAmwpM-unsplash (1).jpg" class="w-full rounded-2xl" />
+                </div>
+            </div> -->
+            <div class="carousel w-9/10 lg:w-3/5 mx-auto">
+                <div id="item1" class="carousel-item w-full aspect-[16/9]">
+                    <img src="assets/lacie-slezak-7yqyQQXgOT8-unsplash (1).jpg"
+                        class="w-full h-full object-cover rounded-2xl" />
+                </div>
+                <div id="item2" class="carousel-item w-full aspect-[16/9]">
+                    <img src="assets/tim-marshall-vn59e-3J2oo-unsplash (1).jpg"
+                        class="w-full h-full object-cover rounded-2xl" />
+                </div>
+                <div id="item3" class="carousel-item w-full aspect-[16/9]">
+                    <img src="assets/hoang-m-nguyen-w7XkGwfv6fQ-unsplash (1).jpg"
+                        class="w-full h-full object-cover rounded-2xl" />
+                </div>
+                <div id="item4" class="carousel-item w-full aspect-[16/9]">
+                    <img src="assets/jeremy-bishop-pikyGuAmwpM-unsplash (1).jpg"
+                        class="w-full h-full object-cover rounded-2xl" />
+                </div>
+            </div>
+            <div class="flex w-full justify-center gap-2 font-rajdhani py-2 mt-10">
+                <a href="#item1" class="btn btn-xs text-white bg-gray-500 hover:bg-indigo-500 rounded-full">1</a>
+                <a href="#item2" class="btn btn-xs text-white bg-gray-500 hover:bg-indigo-500 rounded-full">2</a>
+                <a href="#item3" class="btn btn-xs text-white bg-gray-500 hover:bg-indigo-500 rounded-full">3</a>
+                <a href="#item4" class="btn btn-xs text-white bg-gray-500 hover:bg-indigo-500 rounded-full">4</a>
+            </div>
+        </section>
+
+        <!-- our achievements section -->
+        <section class="section-background text-center">
+            <div class="w-9/10 lg:w-3/5 mx-auto py-35">
+                <h3 class="font-indigo font-permanent-marker text-xl">STATISTICS</h3>
+                <h2 class="font-teko text-6xl font-bold font-almost-black mt-4 mb-10">OUR ACHIEVEMENTS</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="hover:shadow-lg shadow-indigo-200 bg-white text-center space-y-8 py-12 px-8">
+                        <img class="mx-auto" src="assets/happy-clients-blue-icon.png" alt="">
+                        <h3 class="font-teko font-bold font-almost-black text-2xl">100%</h3>
+                        <p class="font-rajdhani font-medium text-lg font-gray">Happy Clients</p>
+                    </div>
+                    <div class="hover:shadow-lg shadow-indigo-200 bg-white text-center space-y-8 py-12 px-8">
+                        <img class="mx-auto" src="assets/50-plus-blue-icon.png" alt="">
+                        <h3 class="font-teko font-bold font-almost-black text-2xl">50+</h3>
+                        <p class="font-rajdhani font-medium text-lg font-gray">Expert Instructors</p>
+                    </div>
+                    <div class="hover:shadow-lg shadow-indigo-200 bg-white text-center space-y-8 py-12 px-8">
+                        <img class="mx-auto" src="assets/1278-plus-blue-icon.png" alt="">
+                        <h3 class="font-teko font-bold font-almost-black text-2xl">1278+</h3>
+                        <p class="font-rajdhani font-medium text-lg font-gray">Positive Reviews</p>
+                    </div>
+                    <div class="hover:shadow-lg shadow-indigo-200 bg-white text-center space-y-8 py-12 px-8">
+                        <img class="mx-auto" src="assets/40-plus-blue-icon.png" alt="">
+                        <h3 class="font-teko font-bold font-almost-black text-2xl">40+</h3>
+                        <p class="font-rajdhani font-medium text-lg font-gray">Awards Won</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- join us CTA section -->
+        <section class="join-us-cta-section">
+            <div class="w-9/10 lg:w-2/5 mx-auto text-center py-35">
+                <h3 class="font-indigo font-permanent-marker text-xl">JOIN US</h3>
+                <h2 class="font-teko text-6xl font-bold text-white mt-4 mb-10">COME AND HAVE FUN WITH OUR SURFING
+                    LESSONS
+                </h2>
+                <a
+                    class="font-rajdhani btn p-6 border-none shadow-none rounded-full text-white bg-indigo-500 hover:bg-indigo-600 text-lg font-bold">GET
+                    STARTED <i class="ml-5 fa-solid fa-arrow-right"></i></a>
+            </div>
+        </section>
+        <div class="h-[500px]"></div>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

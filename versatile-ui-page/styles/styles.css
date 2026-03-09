@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    font-family: "Inter", serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.section-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* nav styles */
+header {
+    background-image: linear-gradient(black, #111111, black);
+    padding-top: 57px;
+}
+
+.navbar,
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.brand {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.hamburger-icon{
+    display: none;
+}
+
+.nav-item {
+    padding: 8px 20px;
+    border-radius: 39px;
+    margin-right: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.nav-item:hover {
+    background-color: #E6533D;
+    cursor: pointer;
+}
+
+#home {
+    background-color: #E6533D;
+}
+
+/* hero styles */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left,
+.hero-right {
+    width: 40%;
+}
+
+.hero-title {
+    color: white;
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+#cursive {
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 400;
+}
+
+.hero-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 28px 0;
+}
+
+.button,
+.dark-button {
+    padding: 16px 40px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 42px;
+    background-color: #E6533D;
+    margin-right: 14px;
+}
+
+.dark-button {
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dark-button:hover {
+    background-color: #E6533D;
+    cursor: pointer;
+}
+
+/* habits section styles */
+.habits {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.habits-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 58px;
+}
+
+.habit {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.habit img {
+    border-radius: 50%;
+}
+
+.habit-title {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 30px 0 6px 0;
+}
+
+.habit-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.125;
+}
+
+/* extra mile section styles */
+.extra-mile-section {
+    background-color: black;
+}
+
+.extra-mile-box {
+    background-color: #222222;
+    border: none;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 32px 40px 54px;
+}
+
+.extra-mile-content {
+    width: 40%;
+}
+
+.extra-mile-content h2,
+.extra-mile-content p {
+    text-align: left;
+}
+
+.extra-mile-content button {
+    margin-top: 34px;
+}
+
+.extra-mile-img {
+    border-radius: 18px;
+    width: 40%;
+}
+
+/* training and exercise section styles */
+.training-section {
+    background-color: black;
+    padding-top: 100px;
+}
+
+.training {
+    padding-bottom: 100px;
+}
+
+.training .section-title,
+.training .section-subtitle {
+    text-align: left;
+}
+
+.training-row-1 {
+    margin-top: 58px;
+    display: flex;
+}
+
+.training-row-2 {
+    display: flex;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    height: 200px;
+    filter: grayscale(100%);
+}
+
+.img1,
+.img3,
+.img5 {
+    width: 25%;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.img4 {
+    width: 40%;
+}
+
+.img6 {
+    width: 35%;
+}
+
+/* calculator section */
+.calculator {
+    background-color: black;
+}
+
+.calculator-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calculator-content-box {
+    background-color: #222222;
+    padding: 52px 0;
+    margin-top: 100px;
+}
+
+.calculator-content-title {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 52px;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+th {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.calculator-content-right .section-subtitle {
+    text-align: left;
+    margin: 14px 0 34px 0;
+}
+
+form {
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+form input {
+    background-color: #383838;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 0 8px 12px 0;
+    width: 43%;
+    color: white;
+}
+
+#activity {
+    width: 92.5%;
+}
+
+/* team section styles */
+.team {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.team-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #1A1A1A;
+    border: none;
+    border-radius: 18px;
+    margin-top: 100px;
+}
+
+.team-boxes img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 18px;
+}
+
+/* footer styles */
+
+footer{
+    background-color: #1A1A1A;
+    padding-top: 66px;
+}
+
+.footer-brand{
+    color: #E6533C;
+    font-weight: 800;
+    font-size: 4.375rem;
+    margin-bottom: 20px;
+}
+
+.footer-left .section-subtitle{
+    text-align: left;
+}
+
+.footer-top{
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.footer-right-1, .footer-right-2{
+    text-align: left;
+}
+
+.footer-right-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-right-option{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1.4375rem;
+    margin-bottom: 20px;
+}
+
+footer hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 35px 0;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+        width: 24px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-left, .hero-right{
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 3rem;
+    }
+    .hero .button{
+        margin-bottom: 20px;
+    }
+    .habits-container{
+        flex-direction: column;
+    }
+    .extra-mile-box{
+        flex-direction: column;
+    }
+    .extra-mile-content, .extra-mile-img{
+        width: 100%;
+    }
+    .extra-mile-img{
+        margin-top: 20px;
+    }
+    .training-section{
+        display: none;
+    }
+    .calculator{
+        padding-top: 100px;
+    }
+    .calculator-content{
+        flex-direction: column;
+    }
+    .calculator-content-right{
+        margin-top: 50px;
+    }
+    form input, #activity {
+        width: 90%;
+    }
+    .team-boxes{
+        grid-template-columns: 1fr;
+    }
+    .footer-top{
+        grid-template-columns: 1fr;
+    }
+}
